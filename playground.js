@@ -33,3 +33,4 @@ $('.ppp').click(function() {
     $('.ppp').fadeOut( 'slow' );
 })
 
+$( '.pppp' ).append( $( '<strong>YOOOOOOO</strong>' ));
