@@ -29,4 +29,7 @@ $("a").click(function() {
     });
     return false;
 });
+$('.ppp').click(function() {
+    $('.ppp').fadeOut( 'slow' );
+})
 
