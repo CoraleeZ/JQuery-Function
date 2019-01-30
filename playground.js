@@ -24,12 +24,14 @@ $(".slidetoggle").click(function() {
 })
 
 $("a").click(function() {
-    $(".divdiv").fadeIn( 3000, function()  {
-        $( '.spanspan').fadeIn( 100 );
+    $(".divdiv").fadeIn(3000, function() {
+        $('.spanspan').fadeIn(100);
     });
     return false;
 });
 $('.ppp').click(function() {
-    $('.ppp').fadeOut( 'slow' );
+    $('.ppp').fadeOut('slow');
 })
 
+
+$(".addclass").addClass("red");

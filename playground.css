@@ -2,8 +2,9 @@
     position: relative;
     width: 400px;
     height: 90px;
-  }
-  .divdiv {
+}
+
+.divdiv {
     position: absolute;
     width: 400px;
     height: 65px;
@@ -15,7 +16,14 @@
     top: 0;
     left: 0;
     display: none;
-  }
-  .spanspan{
-      display: none;
-  }
+}
+
+.spanspan {
+    display: none;
+}
+
+.red {
+    background-color: red;
+    width: 20px;
+    height: 20px;
+}
