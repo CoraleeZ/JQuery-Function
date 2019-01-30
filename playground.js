@@ -35,3 +35,5 @@ $('.ppp').click(function() {
 
 
 $(".addclass").addClass("red");
+
+$('.pppp').append($('<strong>YOOOOOOO</strong>'));
