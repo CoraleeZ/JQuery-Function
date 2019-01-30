@@ -17,3 +17,7 @@ $(".toggle").click(function() {
 $(".show").click(function() {
     $(".hide h1").show();
 })
+
+$(".slidetoggle").click(function() {
+    $(".slidetog").slideToggle("slow", function() {});
+})
