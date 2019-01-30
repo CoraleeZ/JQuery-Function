@@ -17,3 +17,9 @@ $(".toggle").click(function() {
 $(".show").click(function() {
     $(".hide h1").show();
 })
+$("a").click(function() {
+    $(".divdiv").fadeIn( 3000, function()  {
+        $( '.spanspan').fadeIn( 100 );
+    });
+    return false;
+});
