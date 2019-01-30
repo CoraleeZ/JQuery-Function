@@ -13,3 +13,7 @@ $(".smyup").click(function() {
 $(".toggle").click(function() {
     $(".toggle p").toggle();
 })
+
+$(".show").click(function() {
+    $(".hide h1").show();
+})
