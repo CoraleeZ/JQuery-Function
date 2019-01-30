@@ -27,3 +27,7 @@
     width: 20px;
     height: 20px;
 }
+
+.inlineblock {
+    display: inline-block;
+}

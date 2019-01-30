@@ -37,3 +37,8 @@ $('.ppp').click(function() {
 $(".addclass").addClass("red");
 
 $('.pppp').append($('<strong>YOOOOOOO</strong>'));
+
+$(".before").before("<h2>Something is</h2>");
+$("h2,.before").addClass("inlineblock");
+
+$(".after").after("<span> is something!</span>");
