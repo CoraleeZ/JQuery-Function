@@ -1,1 +1,4 @@
-$(".smyup").click()
+
+$(".smyup").click(function() {
+    $( this ).slideUp();
+});
