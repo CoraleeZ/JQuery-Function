@@ -1,4 +1,7 @@
-
 $(".smyup").click(function() {
-    $( this ).slideUp();
+    $(this).slideUp();
 });
+
+$(".hide h1").click(function() {
+    $(this).hide();
+})
