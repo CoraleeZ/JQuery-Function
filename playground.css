@@ -1,0 +1,21 @@
+.pp {
+    position: relative;
+    width: 400px;
+    height: 90px;
+  }
+  .divdiv {
+    position: absolute;
+    width: 400px;
+    height: 65px;
+    font-size: 36px;
+    text-align: center;
+    color: yellow;
+    background: red;
+    padding-top: 25px;
+    top: 0;
+    left: 0;
+    display: none;
+  }
+  .spanspan{
+      display: none;
+  }
